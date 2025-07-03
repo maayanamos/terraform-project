@@ -1,4 +1,23 @@
-.terraform/
-terraform.tfstate
-terraform.tfstate.backup
-.terraform/
+# === Terraform directories and files ===
+.terraform/                       # Local Terraform working directory (plugins, providers, etc.)
+terraform.tfstate                # Main state file (can contain sensitive data)
+terraform.tfstate.backup        # Backup of state file
+
+# === Variable files (may contain secrets) ===
+*.tfvars                        # Terraform variable files (often used for secrets)
+*.tfvars.json                   # JSON-formatted tfvars files
+
+# === IDE/editor settings ===
+.vscode/                        # VS Code workspace settings
+.idea/                          # JetBrains IDEs (e.g., IntelliJ, PyCharm)
+*.swp                           # Vim swap files
+*.swo                           # Another Vim swap format
+
+# === OS-generated files ===
+.DS_Store                       # macOS metadata
+Thumbs.db                       # Windows thumbnail cache
+
+# === Log and temporary files ===
+*.log                           # Log files
+*.tmp                           # Temporary files
+*.bak                           # Backup files
