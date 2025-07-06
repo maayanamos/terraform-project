@@ -38,6 +38,7 @@ devops-terraform/
 │ ├── s3/
 │ └── iam/
 └── .gitignore
+---
 
 I built this project to deepen my understanding of Terraform, AWS infrastructure-as-code practices, and IAM access security.
 Every module was written and tested manually — no auto-generated templates 🙂
