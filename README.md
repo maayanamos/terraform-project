@@ -7,10 +7,10 @@ It includes a VPC, EC2 instance with Nginx, a public S3 static website, and an I
 
 📦 Modules Included
 
-- **VPC** – Custom Virtual Private Cloud with a public subnet.
-- **EC2** – Web server deployed with Nginx and a custom `index.html`.
-- **S3** – Static website hosting for an HTML file.
-- **IAM** – User creation and secure access key handling using profiles.
+- **VPC**: Custom Virtual Private Cloud with a public subnet.
+- **EC2**: Web server deployed with Nginx and a custom `index.html`.
+- **S3**: Static website hosting for an HTML file.
+- **IAM**: User creation and secure access key handling using profiles.
 
 ---
 
@@ -19,7 +19,6 @@ Highlights & Features
 - Uses **Terraform modules** to keep the code modular and reusable.
 - Automatically creates and configures an IAM user and writes credentials to `~/.aws/credentials`.
 - S3 bucket is configured with public access (for website) while still disabling ACLs.
-- `user_data` installs and configures Nginx on instance launch.
 - Clean `.gitignore` to avoid uploading sensitive or heavy files (like `.terraform/` and state files).
 
 ---
@@ -39,3 +38,8 @@ devops-terraform/
 │ ├── s3/
 │ └── iam/
 └── .gitignore
+
+I built this project to deepen my understanding of Terraform, AWS infrastructure-as-code practices, and IAM access security.
+Every module was written and tested manually — no auto-generated templates 🙂
+
+
