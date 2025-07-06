@@ -5,7 +5,7 @@ It includes a VPC, EC2 instance with Nginx, a public S3 static website, and an I
 
 ---
 
-## 📦 Modules Included
+📦 Modules Included
 
 - **VPC** – Custom Virtual Private Cloud with a public subnet.
 - **EC2** – Web server deployed with Nginx and a custom `index.html`.
@@ -14,7 +14,7 @@ It includes a VPC, EC2 instance with Nginx, a public S3 static website, and an I
 
 ---
 
-## 💡 Highlights & Features
+Highlights & Features
 
 - Uses **Terraform modules** to keep the code modular and reusable.
 - Automatically creates and configures an IAM user and writes credentials to `~/.aws/credentials`.
@@ -24,7 +24,7 @@ It includes a VPC, EC2 instance with Nginx, a public S3 static website, and an I
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 
 devops-terraform/
 │
