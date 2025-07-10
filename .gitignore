@@ -2,6 +2,7 @@
 .terraform/                       # Local Terraform working directory (plugins, providers, etc.)
 terraform.tfstate                # Main state file (can contain sensitive data)
 terraform.tfstate.backup        # Backup of state file
+.terraform.lock.hcl
 
 # === Variable files (may contain secrets) ===
 *.tfvars                        # Terraform variable files (often used for secrets)
